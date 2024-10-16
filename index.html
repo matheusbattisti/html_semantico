@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula de HTML Semântico</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <!-- O elemento <header> é usado para introduzir o cabeçalho da página, geralmente contém logo, título e navegação -->
+    <header>
+      <h1>Aprendendo HTML Semântico</h1>
+      <nav>
+        <ul>
+          <li><a href="#introduction">Introdução</a></li>
+          <li><a href="#benefits">Benefícios</a></li>
+          <li><a href="#main-content">Conteúdo Principal</a></li>
+          <li><a href="#extra">Informações Extras</a></li>
+          <li><a href="#conclusion">Conclusão</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <!-- A tag <main> define o conteúdo principal da página, excluindo cabeçalhos, rodapés e informações complementares -->
+    <main id="main-content">
+      <section id="introduction">
+        <h2>O que é HTML Semântico?</h2>
+        <p>
+          HTML semântico utiliza elementos que claramente descrevem o conteúdo
+          que carregam, melhorando a legibilidade e acessibilidade.
+        </p>
+      </section>
+
+      <!-- Exemplificando o uso de article -->
+      <!-- <article> é usado para conteúdos que podem ser independentes, como posts de blog, artigos de notícias, etc. -->
+      <article id="benefits">
+        <h2>Benefícios do HTML Semântico</h2>
+        <p>Usar HTML semântico traz várias vantagens:</p>
+        <ul>
+          <li>
+            Melhora o SEO, pois os motores de busca entendem melhor o conteúdo.
+          </li>
+          <li>Facilita a manutenção e a leitura do código.</li>
+          <li>Ajuda na acessibilidade para usuários de leitores de tela.</li>
+        </ul>
+      </article>
+
+      <!-- Exemplificando o uso de section -->
+      <!-- <section> agrupa um conjunto de conteúdos relacionados, útil para separar tópicos ou partes distintas -->
+      <section>
+        <h3>Exemplos de Elementos Semânticos</h3>
+        <p>Vamos explorar alguns elementos semânticos:</p>
+        <ul>
+          <li><strong>header</strong> - Usado para introduzir cabeçalhos.</li>
+          <li><strong>footer</strong> - Usado para informações de rodapé.</li>
+          <li><strong>nav</strong> - Define uma área de navegação.</li>
+          <li><strong>main</strong> - Envolve o conteúdo principal.</li>
+          <li>
+            <strong>aside</strong> - Usado para informações complementares.
+          </li>
+        </ul>
+      </section>
+
+      <!-- Exemplificando o uso de aside -->
+      <!-- <aside> é para conteúdo relacionado mas não essencial, como anúncios ou links adicionais -->
+      <aside id="extra">
+        <h4>Curiosidade</h4>
+        <p>
+          Você sabia que o uso de HTML semântico pode melhorar a experiência de
+          usuários com deficiência visual?
+        </p>
+      </aside>
+
+      <!-- Exemplificando o uso de figure e figcaption -->
+      <!-- <figure> é usado para ilustrar imagens, gráficos, códigos de exemplo, com descrição através de <figcaption> -->
+      <figure>
+        <img
+          src="https://via.placeholder.com/400x200"
+          alt="Exemplo de uso de HTML semântico"
+        />
+        <figcaption>Exemplo prático de uso de HTML semântico.</figcaption>
+      </figure>
+
+      <!-- Exemplificando o uso de details e summary -->
+      <!-- <details> é usado para criar uma seção expandível que pode ser aberta para mais informações -->
+      <details>
+        <summary>Mais informações sobre HTML Semântico</summary>
+        <p>
+          O HTML semântico ajuda a organizar melhor o conteúdo e melhora a
+          performance em alguns casos, pois os navegadores entendem melhor a
+          estrutura da página.
+        </p>
+      </details>
+    </main>
+
+    <!-- Footer -->
+    <!-- O elemento <footer> contém informações sobre o autor, direitos autorais ou links importantes relacionados ao conteúdo -->
+    <footer id="conclusion">
+      <p>&copy; 2024 Hora de Codar - Todos os direitos reservados.</p>
+      <address>
+        Contate-nos:
+        <a href="mailto:suporte@horadecodar.com">suporte@horadecodar.com</a>
+      </address>
+    </footer>
+  </body>
+</html>
